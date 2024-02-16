@@ -1,0 +1,105 @@
+/*
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+*/
+
+
+.CoolApp {
+  text-align: center;
+}
+
+.App-logo {
+  height: 80vmin;
+  pointer-events: none;
+}
+
+.CoolApp-header {
+  background-color: #282c34;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 5vmin);
+  color: white;
+}
+
+.CoolApp-para {
+  font-size: calc(5px + 1vmin);
+  color:lightsteelblue;
+  justify-content: flex-end;
+}
+
+.CoolApp-body {
+  font-size: calc(5px + 1vmin);
+  color:honeydew;
+  justify-content: flex-end;
+}
+
+.CoolApp-para2 {
+  font-size: calc(5px + 1vmin);
+  color:honeydew;
+}
+
+.CoolApp-line {
+  font-size: calc(10px + 1vmin);
+  color:mediumslateblue;
+}
+
+
+.noButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@media screen and (min-width: 0px) {
+  .noButton {
+    min-width: 5px; /* Adjust button width */
+    min-height: 10px; /* Adjust button height */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .noButton {
+    max-width: calc(100% - 100px); /* Adjust button width */
+    max-height: calc(100% - 40px); /* Adjust button height */
+  }
+}
